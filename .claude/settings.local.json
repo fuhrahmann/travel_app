@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub get)",
+      "Bash(flutter run)",
+      "Bash(flutter run -d windows)",
+      "Bash(flutter run -d chrome)",
+      "Bash(timeout /t 10)",
+      "Bash(flutter clean)",
+      "Bash(flutter run -d chrome --web-renderer html)",
+      "Bash(git log -3 --format='%h %s')",
+      "Bash(git add lib/models/user.dart lib/screens/login_screen.dart lib/screens/register_screen.dart lib/screens/profile_screen.dart lib/services/auth_service.dart SAMPLE_ACCOUNTS.md lib/models/flight.dart lib/screens/flights_screen.dart lib/services/flight_service.dart lib/screens/home_screen.dart pubspec.yaml pubspec.lock)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
