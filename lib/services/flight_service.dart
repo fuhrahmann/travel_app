@@ -165,9 +165,8 @@ class FlightService {
   // Fetch real-time international flights from AviationStack API
   static Future<List<Flight>> getInternationalFlights() async {
     try {
-      // Using free tier of AviationStack API
-      // Note: You'll need to replace with your own API key from https://aviationstack.com/
-      final apiKey = 'YOUR_API_KEY_HERE'; // Replace with actual API key
+      // Using AviationStack API for real-time flight data
+      final apiKey = 'a5c8b848ab51c73629acb8c133e047f1';
       final url = Uri.parse(
         'http://api.aviationstack.com/v1/flights?access_key=$apiKey&limit=20'
       );
